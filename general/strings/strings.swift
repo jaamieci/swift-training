@@ -85,3 +85,4 @@ welcome.remove(at: welcome.index(before: welcome.endIndex))
 let range = welcome.index(welcome.endIndex, offsetBy: -6)..<welcome.endIndex
 welcome.removeSubrange(range)
 // welcome now equals "hello"
+
